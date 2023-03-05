@@ -212,7 +212,20 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/rad-icons.css" />
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-B5K8CQSBBL"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
+    gtag("config", "G-B5K8CQSBBL");
+  </script>
   <body>
     <header class="header fixed-top rad-animation-group" id="header">
       <div class="container rad-fade-in">
@@ -244,12 +257,7 @@
               </li>
 
               <li class="nav-item">
-                <a
-                  data-scroll
-                  class="nav-link"
-                  href="https://github.com/jahadev?tab=repositories/"
-                  >PROJECTS</a
-                >
+                <a data-scroll class="nav-link" href="/portfolio">PROJECTS</a>
               </li>
 
               <li class="nav-item">

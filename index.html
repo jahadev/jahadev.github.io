@@ -217,12 +217,25 @@
 
     <link rel="stylesheet" href="css/custom.css" />
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-B5K8CQSBBL"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
+    gtag("config", "G-B5K8CQSBBL");
+  </script>
   <body>
     <header class="header fixed-top rad-animation-group" id="header">
       <div class="container rad-fade-in">
         <nav class="navbar navbar-expand-lg navbar-light p-0">
-          <a class="navbar-brand" href="">
+          <a class="navbar-brand" href="/">
             <span>Hannah</span>
             <span>Jang</span>
           </a>
@@ -249,16 +262,11 @@
               </li>
 
               <li class="nav-item">
-                <a
-                  data-scroll
-                  class="nav-link"
-                  href="https://github.com/jahadev?tab=repositories/"
-                  >PROJECTS</a
-                >
+                <a data-scroll class="nav-link" href="/portfolio">PROJECTS</a>
               </li>
 
               <li class="nav-item">
-                <a data-scroll class="nav-link" href="/blog/">BLOG</a>
+                <a data-scroll class="nav-link" href="/blog">BLOG</a>
               </li>
 
               <li class="nav-item">
@@ -293,10 +301,7 @@
             <p class="lead">
               I am a self-taught software engineer, based in Seattle, USA.
             </p>
-            <a
-              href="https://github.com/jahadev?tab=repositories/"
-              class="btn btn-primary"
-            >
+            <a href="/portfolio" class="btn btn-primary">
               <i class=""></i>
               See Projects
             </a>
